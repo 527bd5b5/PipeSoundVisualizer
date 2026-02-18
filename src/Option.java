@@ -92,7 +92,11 @@ public class Option {
 
     private static void printTextFile(String path) {
         try {
-            BufferedReader bufferedReader = new BufferedReader(new FileReader(new File(path)));
+            BufferedReader bufferedReader =
+                    new BufferedReader(
+                            new InputStreamReader(
+                                    ClassLoader.getSystemClassLoader()
+                                            .getSystemResourceAsStream(path)));
 
             String line;
 

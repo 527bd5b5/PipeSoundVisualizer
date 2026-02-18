@@ -1,4 +1,4 @@
-Pipe Sound Visualizer 1.0.0
+Pipe Sound Visualizer 1.0.1
 
 ◆ これは何？
 
