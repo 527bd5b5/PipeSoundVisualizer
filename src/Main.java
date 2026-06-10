@@ -6,7 +6,7 @@ import java.io.*;
 
 public class Main {
     public static final String TITLE = "Pipe Sound Visualizer";
-    public static final String VERSION = "1.0.1";
+    public static final String VERSION = "1.0.2";
     public static final int FRAME_NUM = 6;
 
     public int freq = 48000; // DAT Standard
